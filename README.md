@@ -1,6 +1,6 @@
-# Delta Center – Baniyas Square Branch
+# Delta Center – Baniyas Square Branch (Supermarket)
 
-Premium Next.js website for Delta Center Baniyas Square Branch, Deira, Dubai.
+Premium Next.js website for Delta Center Baniyas Square Branch supermarket, Deira, Dubai.
 
 ## Stack
 
@@ -19,17 +19,14 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Scripts
+## Live
 
-- `npm run dev` – development server
-- `npm run build` – production build
-- `npm run start` – start production server
-- `npm run lint` – lint
+- Site: https://delta-center-baniyas-square.vercel.app
+- Repo: https://github.com/rafay-7860/Delta-center-baniyas-square-branch-supermarket
 
 ## Notes
 
-- Business details live in `lib/config.ts`
+- Business details and product categories live in `lib/config.ts`
 - Translations live in `lib/i18n.tsx`
+- Sample products show “Available in store” — no invented prices
 - Contact form prepares a local inquiry draft (no backend configured)
-- WhatsApp button omitted until WhatsApp support is confirmed
-- Social icons omitted until verified accounts are available

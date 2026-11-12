@@ -2,11 +2,11 @@
 
 import { motion } from "framer-motion";
 import {
-  Building,
-  Handshake,
+  Headphones,
   MapPinned,
   Navigation,
-  PhoneCall,
+  ShoppingBasket,
+  Store,
   TrainFront,
 } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
@@ -28,12 +28,12 @@ const features: {
     descKey: "why.access.desc",
   },
   {
-    icon: Handshake,
+    icon: Headphones,
     titleKey: "why.customer.title",
     descKey: "why.customer.desc",
   },
   {
-    icon: Building,
+    icon: Store,
     titleKey: "why.environment.title",
     descKey: "why.environment.desc",
   },
@@ -43,7 +43,7 @@ const features: {
     descKey: "why.deira.desc",
   },
   {
-    icon: PhoneCall,
+    icon: ShoppingBasket,
     titleKey: "why.contact.title",
     descKey: "why.contact.desc",
   },

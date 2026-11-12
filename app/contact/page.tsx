@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/config";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact Delta Center – Baniyas Square Branch. Call +971 4 323 9926. Located Exit 2, opposite Baniyas Metro Station, Deira, Dubai.",
+    "Contact Delta Center – Baniyas Square Branch supermarket. Call +971 4 323 9926. Located Exit 2, opposite Baniyas Metro Station, Deira, Dubai.",
   alternates: { canonical: "/contact" },
 };
 
@@ -16,7 +16,7 @@ export default function ContactPage() {
     <>
       <ContactPageClient
         image={siteConfig.images.contact}
-        imageAlt="Professional consultation setting for financial services inquiries"
+        imageAlt="Friendly supermarket customer service counter"
       />
       <ContactForm />
       <Location />

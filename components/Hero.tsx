@@ -35,7 +35,7 @@ export default function Hero() {
       <motion.div className="absolute inset-0" style={{ y, scale, opacity }}>
         <Image
           src={siteConfig.images.hero}
-          alt="Dubai city skyline representing Delta Center Baniyas Square Branch location"
+          alt="Supermarket aisle products at Delta Center Baniyas Square Branch"
           fill
           priority
           sizes="100vw"

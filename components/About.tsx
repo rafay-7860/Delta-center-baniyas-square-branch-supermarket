@@ -54,7 +54,7 @@ export default function About() {
         <div ref={imageWrap} className="relative aspect-[4/5] overflow-hidden rounded-[28px] sm:aspect-[5/4] lg:aspect-[4/5]">
           <Image
             src={siteConfig.images.about}
-            alt="Modern financial district architecture reflecting Delta Center professional environment"
+            alt="Supermarket shelves with everyday products at Delta Center"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"
             className="object-cover"

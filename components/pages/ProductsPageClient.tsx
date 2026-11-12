@@ -3,7 +3,7 @@
 import PageHero from "@/components/PageHero";
 import { useLanguage } from "@/lib/i18n";
 
-export default function ServicesPageClient({
+export default function ProductsPageClient({
   image,
   imageAlt,
 }: {
@@ -13,8 +13,8 @@ export default function ServicesPageClient({
   const { t } = useLanguage();
   return (
     <PageHero
-      title={t("page.services.hero")}
-      lead={t("page.services.lead")}
+      title={t("page.products.hero")}
+      lead={t("page.products.lead")}
       image={image}
       imageAlt={imageAlt}
     />

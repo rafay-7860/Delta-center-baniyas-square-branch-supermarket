@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/config";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Learn about Delta Center – Baniyas Square Branch in Deira, Dubai — conveniently located opposite Baniyas Metro Station at Exit 2.",
+    "Learn about Delta Center – Baniyas Square Branch supermarket in Deira, Dubai — conveniently located opposite Baniyas Metro Station at Exit 2.",
   alternates: { canonical: "/about" },
 };
 
@@ -17,7 +17,7 @@ export default function AboutPage() {
     <>
       <AboutPageClient
         image={siteConfig.images.about}
-        imageAlt="Professional financial district architecture in Dubai"
+        imageAlt="Supermarket interior with product aisles"
       />
       <About />
       <BranchInfo />

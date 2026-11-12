@@ -28,11 +28,11 @@ const arabic = Noto_Sans_Arabic({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.fullName} | Financial Services Deira Dubai`,
+    default: `${siteConfig.fullName} | Supermarket Deira Dubai`,
     template: `%s | ${siteConfig.name}`,
   },
   description:
-    "Visit Delta Center – Baniyas Square Branch opposite Baniyas Metro Station in Deira, Dubai. Call +971 4 323 9926 for financial services branch support.",
+    "Shop grocery, electronics, crockery, and household essentials at Delta Center – Baniyas Square Branch opposite Baniyas Metro Station, Deira, Dubai. Call +971 4 323 9926.",
   keywords: [...siteConfig.keywords],
   alternates: {
     canonical: "/",
@@ -42,23 +42,23 @@ export const metadata: Metadata = {
     locale: "en_AE",
     url: siteConfig.url,
     siteName: siteConfig.fullName,
-    title: `${siteConfig.fullName} | Financial Services Deira Dubai`,
+    title: `${siteConfig.fullName} | Supermarket Deira Dubai`,
     description:
-      "Conveniently located opposite Baniyas Metro Station, Exit 2, Deira, Dubai. Call +971 4 323 9926.",
+      "Neighborhood supermarket opposite Baniyas Metro Station, Exit 2, Deira, Dubai. Grocery, electronics, crockery and more. Call +971 4 323 9926.",
     images: [
       {
         url: siteConfig.images.hero,
         width: 2400,
         height: 1600,
-        alt: "Dubai skyline near Delta Center Baniyas Square Branch",
+        alt: "Delta Center Baniyas Square Branch supermarket",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.fullName} | Financial Services Deira Dubai`,
+    title: `${siteConfig.fullName} | Supermarket Deira Dubai`,
     description:
-      "Delta Center Baniyas Square Branch – opposite Baniyas Metro Station, Deira, Dubai. Call +971 4 323 9926.",
+      "Delta Center Baniyas Square Branch supermarket – opposite Baniyas Metro Station, Deira, Dubai. Call +971 4 323 9926.",
     images: [siteConfig.images.hero],
   },
   robots: {
@@ -75,10 +75,10 @@ export const viewport: Viewport = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "FinancialService",
+  "@type": "GroceryStore",
   name: siteConfig.fullName,
   description:
-    "Delta Center Baniyas Square Branch provides financial services branch support in Deira, Dubai, opposite Baniyas Metro Station.",
+    "Delta Center Baniyas Square Branch is a supermarket in Deira, Dubai, opposite Baniyas Metro Station, offering grocery, electronics, crockery, and household essentials.",
   telephone: siteConfig.phoneTel,
   url: siteConfig.url,
   image: siteConfig.images.hero,

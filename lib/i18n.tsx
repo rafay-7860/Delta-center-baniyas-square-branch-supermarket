@@ -16,7 +16,8 @@ const translations = {
   en: {
     "nav.home": "Home",
     "nav.about": "About",
-    "nav.services": "Services",
+    "nav.products": "Products",
+    "nav.services": "Products",
     "nav.whyChooseUs": "Why Choose Us",
     "nav.location": "Location",
     "nav.contact": "Contact",
@@ -24,79 +25,108 @@ const translations = {
     "nav.contactUs": "Contact Us",
     "nav.branchLabel": "Baniyas Square Branch",
     "loader.loading": "Loading",
-    "hero.headline": "Your Trusted Financial Services Partner in Dubai.",
+    "hero.headline": "Your Neighborhood Supermarket in the Heart of Deira.",
     "hero.subtext":
-      "Visit Delta Center – Baniyas Square Branch, conveniently located opposite Baniyas Metro Station in the heart of Deira.",
-    "hero.ctaContact": "Contact Our Branch",
+      "Shop grocery, electronics, crockery, and everyday essentials at Delta Center – Baniyas Square Branch, opposite Baniyas Metro Station.",
+    "hero.ctaContact": "Visit Our Store",
     "hero.ctaDirections": "Get Directions",
-    "hero.badge": "Deira · Dubai · UAE",
-    "branch.title": "Branch Information",
-    "branch.subtitle": "Everything you need to visit us with confidence.",
+    "hero.badge": "Supermarket · Deira · Dubai",
+    "branch.title": "Store Information",
+    "branch.subtitle": "Everything you need for a convenient shopping visit.",
     "branch.name": "Delta Center",
     "branch.branch": "Baniyas Square Branch",
     "branch.area": "Deira, Dubai",
     "branch.phone": "Phone",
     "branch.location": "Location",
     "branch.locationValue": "Opposite Baniyas Metro Station, Exit 2",
-    "services.title": "Our Services",
-    "services.subtitle":
-      "Explore the service categories available at our Baniyas Square branch. Please contact the branch to confirm current offerings.",
-    "services.disclaimer":
-      "Service availability may vary. Contact the branch to confirm what we can assist you with today.",
-    "services.learnMore": "Contact Branch",
-    "services.moneyExchange.title": "Money Exchange",
-    "services.moneyExchange.desc":
-      "Currency exchange support for everyday and travel needs. Confirm current availability with our branch team.",
-    "services.transfers.title": "International Money Transfers",
-    "services.transfers.desc":
-      "Assistance with international remittance inquiries. Speak with our staff for process guidance.",
-    "services.currency.title": "Currency Services",
-    "services.currency.desc":
-      "Support related to foreign currency needs for residents, tourists, and business visitors.",
-    "services.assistance.title": "Financial Assistance",
-    "services.assistance.desc":
-      "Customer-focused help navigating financial service requests at our Deira location.",
-    "services.payment.title": "Payment Services",
-    "services.payment.desc":
-      "Guidance on payment-related service inquiries available through our branch.",
-    "services.support.title": "Customer Support",
-    "services.support.desc":
-      "Friendly, professional assistance for visitors seeking clear information and next steps.",
-    "about.title": "Convenience, Accessibility & Customer Service.",
-    "about.subtitle": "About Our Branch",
+    "categories.title": "Shop by Category",
+    "categories.subtitle":
+      "Find everyday products for your home — from fresh grocery to electronics and crockery.",
+    "categories.cta": "View Products",
+    "categories.grocery.title": "Grocery & Fresh Foods",
+    "categories.grocery.desc":
+      "Fruits, vegetables, pantry staples, dairy, and daily grocery essentials.",
+    "categories.electronics.title": "Electronics",
+    "categories.electronics.desc":
+      "Home electronics, kitchen appliances, and useful gadgets for everyday living.",
+    "categories.crockery.title": "Crockery & Kitchenware",
+    "categories.crockery.desc":
+      "Plates, cups, cookware, and kitchen items for home and hospitality needs.",
+    "categories.household.title": "Household Essentials",
+    "categories.household.desc":
+      "Cleaning supplies, home care products, and practical household items.",
+    "categories.beverages.title": "Beverages & Snacks",
+    "categories.beverages.desc":
+      "Drinks, snacks, and convenient options for family and guests.",
+    "categories.personalcare.title": "Personal Care",
+    "categories.personalcare.desc":
+      "Everyday personal care and hygiene products for the whole family.",
+    "products.title": "Featured Products",
+    "products.subtitle":
+      "A selection of products you can find at our Baniyas Square supermarket. Availability may vary — ask our team in store.",
+    "products.askStore": "Available in store",
+    "products.cta": "Ask About This Product",
+    "products.disclaimer":
+      "Product selection changes regularly. Visit the store or call us to confirm current availability. Prices are available in store.",
+    "products.freshFruits.title": "Fresh Fruits",
+    "products.freshFruits.desc":
+      "Seasonal fruits selected for everyday family shopping.",
+    "products.vegetables.title": "Fresh Vegetables",
+    "products.vegetables.desc":
+      "Everyday vegetables for cooking and healthy meals at home.",
+    "products.dairy.title": "Dairy Essentials",
+    "products.dairy.desc":
+      "Milk, cheese, and dairy staples for your kitchen.",
+    "products.kitchenAppliances.title": "Kitchen Appliances",
+    "products.kitchenAppliances.desc":
+      "Practical small appliances and kitchen electronics.",
+    "products.homeElectronics.title": "Home Electronics",
+    "products.homeElectronics.desc":
+      "Useful electronics for home entertainment and daily convenience.",
+    "products.dinnerware.title": "Dinnerware Sets",
+    "products.dinnerware.desc":
+      "Plates, bowls, and serving pieces for everyday dining.",
+    "products.cookware.title": "Cookware",
+    "products.cookware.desc":
+      "Pots, pans, and cooking essentials for home kitchens.",
+    "products.cleaning.title": "Cleaning Supplies",
+    "products.cleaning.desc":
+      "Household cleaning products to keep your home fresh.",
+    "about.title": "A Convenient Supermarket for Everyday Shopping.",
+    "about.subtitle": "About Our Store",
     "about.p1":
-      "Delta Center – Baniyas Square Branch is positioned for easy access in the heart of Deira, opposite Baniyas Metro Station at Exit 2.",
+      "Delta Center – Baniyas Square Branch is a supermarket in the heart of Deira, conveniently located opposite Baniyas Metro Station at Exit 2.",
     "about.p2":
-      "Whether you are a Dubai resident, a tourist, or a business professional, our branch focuses on convenient access and attentive customer service in a professional environment.",
+      "Whether you need grocery, electronics, crockery, or household essentials, our store is set up for easy access and friendly customer service.",
     "about.p3":
-      "We welcome visitors looking for reliable financial services support in a central Deira location that is simple to reach by metro and nearby transport.",
-    "about.point1": "Convenient location in Baniyas Square",
+      "Residents, tourists, and nearby workers can stop in for everyday shopping in a central Deira location that is simple to reach by metro.",
+    "about.point1": "Convenient supermarket in Baniyas Square",
     "about.point2": "Opposite Baniyas Metro Station",
-    "about.point3": "Easy access for Deira visitors",
-    "about.point4": "Customer-focused service",
-    "about.point5": "Professional business environment",
-    "about.cta": "Visit Our Contact Page",
-    "why.title": "Why Choose Delta Center?",
+    "about.point3": "Grocery, electronics & crockery",
+    "about.point4": "Friendly customer service",
+    "about.point5": "Easy everyday shopping in Deira",
+    "about.cta": "Contact Our Store",
+    "why.title": "Why Shop at Delta Center?",
     "why.subtitle":
-      "Practical reasons visitors choose our Baniyas Square branch for financial services support.",
+      "Practical reasons shoppers choose our Baniyas Square supermarket.",
     "why.metro.title": "Convenient Metro Location",
     "why.metro.desc":
-      "Located opposite Baniyas Metro Station for straightforward access across Dubai.",
-    "why.access.title": "Easy Branch Access",
+      "Located opposite Baniyas Metro Station for easy shopping trips across Dubai.",
+    "why.access.title": "Easy Store Access",
     "why.access.desc":
-      "Find us at Exit 2, making your visit simple whether you arrive by metro or nearby roads.",
-    "why.customer.title": "Customer-Focused Assistance",
+      "Find us at Exit 2 — simple to reach by metro or nearby roads.",
+    "why.customer.title": "Helpful In-Store Assistance",
     "why.customer.desc":
-      "Our team prioritizes clear guidance and attentive support for every visitor.",
-    "why.environment.title": "Professional Environment",
+      "Our team is ready to help you find grocery, electronics, crockery, and more.",
+    "why.environment.title": "Comfortable Shopping Environment",
     "why.environment.desc":
-      "A polished branch setting designed for trust, clarity, and comfortable service.",
+      "A clean, organized supermarket setting for everyday purchases.",
     "why.deira.title": "Central Deira Location",
     "why.deira.desc":
-      "Situated in the heart of Deira — practical for residents, tourists, and professionals.",
-    "why.contact.title": "Convenient Contact Options",
+      "Ideal for residents, tourists, and professionals shopping in Deira.",
+    "why.contact.title": "Easy to Reach",
     "why.contact.desc":
-      "Call +971 4 323 9926 or use our inquiry form to reach the branch team.",
+      "Call +971 4 323 9926 or send an inquiry before your visit.",
     "location.title": "Find Us in the Heart of Deira.",
     "location.subtitle": "Location & Accessibility",
     "location.branch": "Delta Center – Baniyas Square Branch",
@@ -104,18 +134,18 @@ const translations = {
       "EXIT 2 – Opposite Baniyas Metro Station, Deira, Dubai, UAE.",
     "location.phone": "Phone",
     "location.directions": "Get Directions",
-    "location.call": "Call Branch",
+    "location.call": "Call Store",
     "location.note":
-      "Use Google Maps search for our branch landmark near Baniyas Metro Station Exit 2.",
-    "contact.title": "Contact Our Branch",
+      "Use Google Maps search for our store landmark near Baniyas Metro Station Exit 2.",
+    "contact.title": "Contact Our Store",
     "contact.subtitle":
-      "Reach Delta Center – Baniyas Square Branch by phone or send an inquiry.",
-    "contact.branch": "Branch Name",
+      "Reach Delta Center – Baniyas Square Branch by phone or send an inquiry about products.",
+    "contact.branch": "Store Name",
     "contact.phone": "Phone Number",
     "contact.location": "Location",
     "contact.formTitle": "Inquiry Form",
     "contact.formNote":
-      "This form prepares your message locally. Please call the branch or use your email client to complete the inquiry until a backend is configured.",
+      "This form prepares your message locally. Please call the store or use your email client to complete the inquiry until a backend is configured.",
     "contact.fullName": "Full Name",
     "contact.phoneField": "Phone Number",
     "contact.email": "Email Address (optional)",
@@ -127,7 +157,7 @@ const translations = {
     "contact.error": "Please fill in all required fields correctly.",
     "contact.required": "Required",
     "footer.tagline":
-      "Financial services branch support in the heart of Deira, opposite Baniyas Metro Station.",
+      "Your neighborhood supermarket in the heart of Deira — grocery, electronics, crockery, and more.",
     "footer.quickLinks": "Quick Links",
     "footer.contact": "Contact",
     "footer.rights": "All rights reserved.",
@@ -138,22 +168,23 @@ const translations = {
     "lang.switch": "Language",
     "common.learnMore": "Learn More",
     "page.about.metaTitle": "About | Delta Center – Baniyas Square Branch",
-    "page.services.metaTitle": "Services | Delta Center – Baniyas Square Branch",
+    "page.products.metaTitle": "Products | Delta Center – Baniyas Square Branch",
     "page.contact.metaTitle": "Contact | Delta Center – Baniyas Square Branch",
-    "page.about.hero": "About Our Branch",
+    "page.about.hero": "About Our Supermarket",
     "page.about.lead":
-      "A conveniently located financial services branch focused on accessibility and customer care.",
-    "page.services.hero": "Branch Services",
-    "page.services.lead":
-      "Browse proposed service categories and confirm current offerings with our team.",
+      "A conveniently located supermarket focused on everyday products and easy access near Baniyas Metro.",
+    "page.products.hero": "Products & Categories",
+    "page.products.lead":
+      "Explore grocery, electronics, crockery, and more available at our Deira supermarket.",
     "page.contact.hero": "Get in Touch",
     "page.contact.lead":
-      "Call us or send an inquiry — we are ready to assist visitors to our Deira branch.",
+      "Call us or send an inquiry — we are ready to help shoppers at our Deira supermarket.",
   },
   ar: {
     "nav.home": "الرئيسية",
     "nav.about": "من نحن",
-    "nav.services": "الخدمات",
+    "nav.products": "المنتجات",
+    "nav.services": "المنتجات",
     "nav.whyChooseUs": "لماذا نحن",
     "nav.location": "الموقع",
     "nav.contact": "تواصل معنا",
@@ -161,79 +192,98 @@ const translations = {
     "nav.contactUs": "تواصل معنا",
     "nav.branchLabel": "فرع بني ياس سكوير",
     "loader.loading": "جارٍ التحميل",
-    "hero.headline": "شريكك الموثوق للخدمات المالية في دبي.",
+    "hero.headline": "سوبرماركت حيّك في قلب ديرة.",
     "hero.subtext":
-      "زوروا دلتا سنتر – فرع بني ياس سكوير، مقابل محطة مترو بني ياس في قلب ديرة.",
-    "hero.ctaContact": "تواصل مع الفرع",
+      "تسوّق البقالة والإلكترونيات وأدوات المائدة والمستلزمات اليومية من دلتا سنتر – فرع بني ياس سكوير، مقابل محطة مترو بني ياس.",
+    "hero.ctaContact": "زر متجرنا",
     "hero.ctaDirections": "احصل على الاتجاهات",
-    "hero.badge": "ديرة · دبي · الإمارات",
-    "branch.title": "معلومات الفرع",
-    "branch.subtitle": "كل ما تحتاجه لزيارتنا بثقة وسهولة.",
+    "hero.badge": "سوبرماركت · ديرة · دبي",
+    "branch.title": "معلومات المتجر",
+    "branch.subtitle": "كل ما تحتاجه لزيارة تسوق مريحة وسهلة.",
     "branch.name": "دلتا سنتر",
     "branch.branch": "فرع بني ياس سكوير",
     "branch.area": "ديرة، دبي",
     "branch.phone": "الهاتف",
     "branch.location": "الموقع",
     "branch.locationValue": "مقابل محطة مترو بني ياس، المخرج 2",
-    "services.title": "خدماتنا",
-    "services.subtitle":
-      "تعرّف على فئات الخدمات المتاحة في فرع بني ياس سكوير. يُرجى التواصل مع الفرع لتأكيد العروض الحالية.",
-    "services.disclaimer":
-      "قد تختلف توفر الخدمات. تواصل مع الفرع لتأكيد ما يمكننا مساعدتك به اليوم.",
-    "services.learnMore": "تواصل مع الفرع",
-    "services.moneyExchange.title": "صرف العملات",
-    "services.moneyExchange.desc":
-      "دعم صرف العملات للاحتياجات اليومية والسفر. أكّد التوفر الحالي مع فريق الفرع.",
-    "services.transfers.title": "تحويلات مالية دولية",
-    "services.transfers.desc":
-      "المساعدة في استفسارات التحويلات الدولية. تحدّث مع موظفينا للإرشاد حول الإجراءات.",
-    "services.currency.title": "خدمات العملات",
-    "services.currency.desc":
-      "دعم متعلق باحتياجات العملات الأجنبية للمقيمين والسياح وزوار الأعمال.",
-    "services.assistance.title": "المساعدة المالية",
-    "services.assistance.desc":
-      "مساعدة تركز على العميل في طلبات الخدمات المالية في موقعنا بديرة.",
-    "services.payment.title": "خدمات الدفع",
-    "services.payment.desc":
-      "إرشاد حول استفسارات خدمات الدفع المتاحة عبر فرعنا.",
-    "services.support.title": "دعم العملاء",
-    "services.support.desc":
-      "مساعدة ودّية واحترافية للزوار الباحثين عن معلومات واضحة والخطوات التالية.",
-    "about.title": "الراحة وسهولة الوصول وخدمة العملاء.",
-    "about.subtitle": "عن فرعنا",
+    "categories.title": "تسوق حسب الفئة",
+    "categories.subtitle":
+      "اعثر على المنتجات اليومية لمنزلك — من البقالة إلى الإلكترونيات وأدوات المائدة.",
+    "categories.cta": "عرض المنتجات",
+    "categories.grocery.title": "البقالة والأطعمة الطازجة",
+    "categories.grocery.desc":
+      "فواكه وخضروات ومواد غذائية ومنتجات ألبان ومستلزمات البقالة اليومية.",
+    "categories.electronics.title": "الإلكترونيات",
+    "categories.electronics.desc":
+      "إلكترونيات منزلية وأجهزة مطبخ وأدوات عملية للاستخدام اليومي.",
+    "categories.crockery.title": "أدوات المائدة والمطبخ",
+    "categories.crockery.desc":
+      "صحون وأكواب وأدوات طبخ ومستلزمات المطبخ للمنزل والضيافة.",
+    "categories.household.title": "مستلزمات منزلية",
+    "categories.household.desc":
+      "مواد تنظيف ومنتجات العناية بالمنزل ومستلزمات عملية.",
+    "categories.beverages.title": "المشروبات والوجبات الخفيفة",
+    "categories.beverages.desc":
+      "مشروبات ووجبات خفيفة وخيارات مريحة للعائلة والضيوف.",
+    "categories.personalcare.title": "العناية الشخصية",
+    "categories.personalcare.desc":
+      "منتجات العناية الشخصية والنظافة اليومية لجميع أفراد الأسرة.",
+    "products.title": "منتجات مميزة",
+    "products.subtitle":
+      "مجموعة من المنتجات المتوفرة في سوبرماركت بني ياس سكوير. قد يختلف التوفر — اسأل فريقنا في المتجر.",
+    "products.askStore": "متوفر في المتجر",
+    "products.cta": "اسأل عن هذا المنتج",
+    "products.disclaimer":
+      "يتغير اختيار المنتجات بانتظام. زر المتجر أو اتصل بنا لتأكيد التوفر الحالي. الأسعار متوفرة داخل المتجر.",
+    "products.freshFruits.title": "فواكه طازجة",
+    "products.freshFruits.desc": "فواكه موسمية مناسبة للتسوق العائلي اليومي.",
+    "products.vegetables.title": "خضروات طازجة",
+    "products.vegetables.desc": "خضروات يومية للطبخ والوجبات الصحية في المنزل.",
+    "products.dairy.title": "منتجات الألبان",
+    "products.dairy.desc": "حليب وجبن ومستلزمات ألبان لمطبخك.",
+    "products.kitchenAppliances.title": "أجهزة المطبخ",
+    "products.kitchenAppliances.desc": "أجهزة صغيرة وإلكترونيات مطبخ عملية.",
+    "products.homeElectronics.title": "إلكترونيات منزلية",
+    "products.homeElectronics.desc":
+      "إلكترونيات مفيدة للترفيه والراحة اليومية في المنزل.",
+    "products.dinnerware.title": "أطقم المائدة",
+    "products.dinnerware.desc": "صحون وأوعية وأدوات تقديم للاستخدام اليومي.",
+    "products.cookware.title": "أدوات الطبخ",
+    "products.cookware.desc": "قدور ومقالي ومستلزمات طبخ للمطابخ المنزلية.",
+    "products.cleaning.title": "مواد التنظيف",
+    "products.cleaning.desc": "منتجات تنظيف منزلية للحفاظ على نظافة منزلك.",
+    "about.title": "سوبرماركت مريح للتسوق اليومي.",
+    "about.subtitle": "عن متجرنا",
     "about.p1":
-      "يقع دلتا سنتر – فرع بني ياس سكوير في موقع يسهل الوصول إليه في قلب ديرة، مقابل محطة مترو بني ياس عند المخرج 2.",
+      "دلتا سنتر – فرع بني ياس سكوير سوبرماركت في قلب ديرة، بموقع مريح مقابل محطة مترو بني ياس عند المخرج 2.",
     "about.p2":
-      "سواء كنت مقيماً في دبي أو سائحاً أو محترفاً في الأعمال، يركز فرعنا على سهولة الوصول وخدمة العملاء باهتمام في بيئة مهنية.",
+      "سواء احتجت بقالة أو إلكترونيات أو أدوات مائدة أو مستلزمات منزلية، متجرنا جاهز لسهولة الوصول وخدمة عملاء ودّية.",
     "about.p3":
-      "نرحب بالزوار الباحثين عن دعم موثوق للخدمات المالية في موقع مركزي بديرة يسهل الوصول إليه عبر المترو ووسائل النقل القريبة.",
-    "about.point1": "موقع مريح في بني ياس سكوير",
+      "يمكن للمقيمين والسياح والعاملين في المنطقة التوقف للتسوق اليومي في موقع مركزي بديرة يسهل الوصول إليه عبر المترو.",
+    "about.point1": "سوبرماركت مريح في بني ياس سكوير",
     "about.point2": "مقابل محطة مترو بني ياس",
-    "about.point3": "سهولة وصول لزوار ديرة",
-    "about.point4": "خدمة تركز على العميل",
-    "about.point5": "بيئة عمل مهنية",
-    "about.cta": "انتقل إلى صفحة التواصل",
-    "why.title": "لماذا تختار دلتا سنتر؟",
-    "why.subtitle":
-      "أسباب عملية لاختيار زوارنا فرع بني ياس سكوير لدعم الخدمات المالية.",
+    "about.point3": "بقالة وإلكترونيات وأدوات مائدة",
+    "about.point4": "خدمة عملاء ودّية",
+    "about.point5": "تسوق يومي سهل في ديرة",
+    "about.cta": "تواصل مع متجرنا",
+    "why.title": "لماذا تتسوق من دلتا سنتر؟",
+    "why.subtitle": "أسباب عملية لاختيار المتسوقين سوبرماركت بني ياس سكوير.",
     "why.metro.title": "موقع مريح بجانب المترو",
     "why.metro.desc":
-      "يقع مقابل محطة مترو بني ياس لسهولة الوصول من أنحاء دبي.",
-    "why.access.title": "سهولة الوصول للفرع",
+      "يقع مقابل محطة مترو بني ياس لسهولة رحلات التسوق من أنحاء دبي.",
+    "why.access.title": "سهولة الوصول للمتجر",
     "why.access.desc":
-      "تجدنا عند المخرج 2، ما يجعل زيارتك بسيطة سواء وصلت بالمترو أو الطرق القريبة.",
-    "why.customer.title": "مساعدة تركز على العميل",
+      "تجدنا عند المخرج 2 — يسهل الوصول بالمترو أو الطرق القريبة.",
+    "why.customer.title": "مساعدة مفيدة داخل المتجر",
     "why.customer.desc":
-      "يعطي فريقنا الأولوية للتوجيه الواضح والدعم الودي لكل زائر.",
-    "why.environment.title": "بيئة مهنية",
-    "why.environment.desc":
-      "مقر فرع أنيق مصمم للثقة والوضوح وخدمة مريحة.",
+      "فريقنا مستعد لمساعدتك في إيجاد البقالة والإلكترونيات وأدوات المائدة والمزيد.",
+    "why.environment.title": "بيئة تسوق مريحة",
+    "why.environment.desc": "سوبرماركت نظيف ومنظم للمشتريات اليومية.",
     "why.deira.title": "موقع مركزي في ديرة",
-    "why.deira.desc":
-      "في قلب ديرة — عملي للمقيمين والسياح والمحترفين.",
-    "why.contact.title": "خيارات تواصل مريحة",
+    "why.deira.desc": "مثالي للمقيمين والسياح والمحترفين المتسوقين في ديرة.",
+    "why.contact.title": "سهولة التواصل",
     "why.contact.desc":
-      "اتصل على +971 4 323 9926 أو استخدم نموذج الاستفسار للتواصل مع فريق الفرع.",
+      "اتصل على +971 4 323 9926 أو أرسل استفساراً قبل زيارتك.",
     "location.title": "اعثر علينا في قلب ديرة.",
     "location.subtitle": "الموقع وسهولة الوصول",
     "location.branch": "دلتا سنتر – فرع بني ياس سكوير",
@@ -241,18 +291,18 @@ const translations = {
       "المخرج 2 – مقابل محطة مترو بني ياس، ديرة، دبي، الإمارات.",
     "location.phone": "الهاتف",
     "location.directions": "احصل على الاتجاهات",
-    "location.call": "اتصل بالفرع",
+    "location.call": "اتصل بالمتجر",
     "location.note":
-      "استخدم بحث خرائط جوجل عن معلم فرعنا قرب محطة مترو بني ياس المخرج 2.",
-    "contact.title": "تواصل مع فرعنا",
+      "استخدم بحث خرائط جوجل عن معلم متجرنا قرب محطة مترو بني ياس المخرج 2.",
+    "contact.title": "تواصل مع متجرنا",
     "contact.subtitle":
-      "تواصل مع دلتا سنتر – فرع بني ياس سكوير عبر الهاتف أو أرسل استفساراً.",
-    "contact.branch": "اسم الفرع",
+      "تواصل مع دلتا سنتر – فرع بني ياس سكوير عبر الهاتف أو أرسل استفساراً عن المنتجات.",
+    "contact.branch": "اسم المتجر",
     "contact.phone": "رقم الهاتف",
     "contact.location": "الموقع",
     "contact.formTitle": "نموذج الاستفسار",
     "contact.formNote":
-      "يعدّ هذا النموذج رسالتك محلياً. يُرجى الاتصال بالفرع أو استخدام بريدك لإكمال الاستفسار حتى يتم إعداد نظام الإرسال.",
+      "يعدّ هذا النموذج رسالتك محلياً. يُرجى الاتصال بالمتجر أو استخدام بريدك لإكمال الاستفسار حتى يتم إعداد نظام الإرسال.",
     "contact.fullName": "الاسم الكامل",
     "contact.phoneField": "رقم الهاتف",
     "contact.email": "البريد الإلكتروني (اختياري)",
@@ -264,7 +314,7 @@ const translations = {
     "contact.error": "يرجى تعبئة جميع الحقول المطلوبة بشكل صحيح.",
     "contact.required": "مطلوب",
     "footer.tagline":
-      "دعم فرع الخدمات المالية في قلب ديرة، مقابل محطة مترو بني ياس.",
+      "سوبرماركت حيّك في قلب ديرة — بقالة وإلكترونيات وأدوات مائدة والمزيد.",
     "footer.quickLinks": "روابط سريعة",
     "footer.contact": "التواصل",
     "footer.rights": "جميع الحقوق محفوظة.",
@@ -275,17 +325,17 @@ const translations = {
     "lang.switch": "اللغة",
     "common.learnMore": "اعرف المزيد",
     "page.about.metaTitle": "من نحن | دلتا سنتر – فرع بني ياس سكوير",
-    "page.services.metaTitle": "الخدمات | دلتا سنتر – فرع بني ياس سكوير",
+    "page.products.metaTitle": "المنتجات | دلتا سنتر – فرع بني ياس سكوير",
     "page.contact.metaTitle": "تواصل معنا | دلتا سنتر – فرع بني ياس سكوير",
-    "page.about.hero": "عن فرعنا",
+    "page.about.hero": "عن سوبرماركتنا",
     "page.about.lead":
-      "فرع خدمات مالية بموقع مريح يركز على سهولة الوصول ورعاية العملاء.",
-    "page.services.hero": "خدمات الفرع",
-    "page.services.lead":
-      "تصفح فئات الخدمات المقترحة وأكد العروض الحالية مع فريقنا.",
+      "سوبرماركت بموقع مريح يركز على المنتجات اليومية وسهولة الوصول قرب مترو بني ياس.",
+    "page.products.hero": "المنتجات والفئات",
+    "page.products.lead":
+      "استكشف البقالة والإلكترونيات وأدوات المائدة والمزيد في سوبرماركتنا بديرة.",
     "page.contact.hero": "تواصل معنا",
     "page.contact.lead":
-      "اتصل بنا أو أرسل استفساراً — نحن مستعدون لمساعدة زوار فرعنا في ديرة.",
+      "اتصل بنا أو أرسل استفساراً — نحن مستعدون لمساعدة المتسوقين في سوبرماركتنا بديرة.",
   },
 } as const;
 
