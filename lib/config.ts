@@ -13,7 +13,7 @@ export const siteConfig = {
     country: "United Arab Emirates",
     landmark: "EXIT 2 – Opposite Baniyas Metro Station, Deira, Dubai, UAE",
   },
-  url: "https://delta-center-baniyas.vercel.app",
+  url: "https://delta-center-baniyas-square.vercel.app",
   keywords: [
     "Delta Center Dubai",
     "Delta Center Baniyas Square",
