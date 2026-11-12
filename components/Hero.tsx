@@ -7,8 +7,6 @@ import { useRef } from "react";
 import MagneticButton from "@/components/MagneticButton";
 import { siteConfig } from "@/lib/config";
 import { useLanguage } from "@/lib/i18n";
-import { getDirectionsUrl } from "@/lib/utils";
-
 export default function Hero() {
   const { t, locale } = useLanguage();
   const ref = useRef<HTMLElement>(null);
@@ -20,9 +18,7 @@ export default function Hero() {
   const scale = useTransform(scrollYProgress, [0, 1], [1.08, 1.2]);
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0.35]);
 
-  const directionsUrl = getDirectionsUrl(
-    `${siteConfig.name} ${siteConfig.branch} Baniyas Metro Station Deira Dubai`
-  );
+  const directionsUrl = siteConfig.location.mapsUrl;
 
   const words = t("hero.headline").split(" ");
 

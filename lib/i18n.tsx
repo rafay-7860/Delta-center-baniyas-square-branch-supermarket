@@ -136,7 +136,7 @@ const translations = {
     "location.directions": "Get Directions",
     "location.call": "Call Store",
     "location.note":
-      "Use Google Maps search for our store landmark near Baniyas Metro Station Exit 2.",
+      "Open the official Google Maps link for exact directions to our store near Baniyas Metro Station Exit 2.",
     "contact.title": "Contact Our Store",
     "contact.subtitle":
       "Reach Delta Center – Baniyas Square Branch by phone or send an inquiry about products.",
@@ -293,7 +293,7 @@ const translations = {
     "location.directions": "احصل على الاتجاهات",
     "location.call": "اتصل بالمتجر",
     "location.note":
-      "استخدم بحث خرائط جوجل عن معلم متجرنا قرب محطة مترو بني ياس المخرج 2.",
+      "افتح رابط خرائط جوجل الرسمي للحصول على الاتجاهات الدقيقة لمتجرنا قرب محطة مترو بني ياس المخرج 2.",
     "contact.title": "تواصل مع متجرنا",
     "contact.subtitle":
       "تواصل مع دلتا سنتر – فرع بني ياس سكوير عبر الهاتف أو أرسل استفساراً عن المنتجات.",

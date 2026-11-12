@@ -81,6 +81,7 @@ const jsonLd = {
     "Delta Center Baniyas Square Branch is a supermarket in Deira, Dubai, opposite Baniyas Metro Station, offering grocery, electronics, crockery, and household essentials.",
   telephone: siteConfig.phoneTel,
   url: siteConfig.url,
+  hasMap: siteConfig.location.mapsUrl,
   image: siteConfig.images.hero,
   address: {
     "@type": "PostalAddress",

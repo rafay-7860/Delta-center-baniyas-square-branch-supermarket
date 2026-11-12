@@ -7,13 +7,9 @@ import MagneticButton from "@/components/MagneticButton";
 import SectionHeading from "@/components/SectionHeading";
 import { siteConfig } from "@/lib/config";
 import { useLanguage } from "@/lib/i18n";
-import { getDirectionsUrl } from "@/lib/utils";
-
 export default function Location() {
   const { t } = useLanguage();
-  const directionsUrl = getDirectionsUrl(
-    `${siteConfig.name} ${siteConfig.branch} Baniyas Metro Exit 2 Deira Dubai`
-  );
+  const directionsUrl = siteConfig.location.mapsUrl;
 
   return (
     <section id="location" className="relative bg-mist py-20 lg:py-28">
@@ -24,19 +20,24 @@ export default function Location() {
         />
 
         <div className="grid items-stretch gap-6 lg:grid-cols-2">
-          <motion.div
+          <motion.a
+            href={directionsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             initial={{ opacity: 0, x: -24 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
             className="relative min-h-[320px] overflow-hidden rounded-[28px] lg:min-h-full"
+            data-cursor="hover"
+            aria-label={t("location.directions")}
           >
             <Image
               src={siteConfig.images.location}
               alt="Dubai Deira urban area near Baniyas Square"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover transition duration-700 hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-navy/80 via-navy/30 to-transparent" />
             <motion.div
@@ -51,7 +52,7 @@ export default function Location() {
                 </div>
               </div>
             </motion.div>
-          </motion.div>
+          </motion.a>
 
           <motion.div
             initial={{ opacity: 0, x: 24 }}
